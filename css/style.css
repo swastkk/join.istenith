@@ -39,13 +39,26 @@ h1 {
   width: 100px;
 }
 .body-div {
-  margin: 0 200px;
+  display: flex;
+  justify-content: center;
+}
 
-  border: 10px;
+input[type="text"] {
+  border-radius: 4px;
+  border-color: rgb(4, 68, 250);
+}
+label {
+  padding-left: 20px;
 }
 
 textarea {
-  resize: none none;
+  resize: none;
+  border-radius: 4px;
+  border-color: rgb(4, 68, 250);
+}
+
+.sameWidth {
+  width: 50%;
 }
 .navbar-brand {
   font-size: large;
