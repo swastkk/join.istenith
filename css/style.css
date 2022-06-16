@@ -23,6 +23,17 @@ body {
 
   color: rgba(108, 50, 224, 0.8);
 }
+
+/* page1 */
+.text-box {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 p {
   text-align: center;
 }
@@ -30,6 +41,7 @@ p {
 h1 {
   letter-spacing: -1px;
   padding-top: 15px;
+  padding-bottom: 15px;
 }
 .isteLogo {
   height: 100px;
@@ -37,6 +49,9 @@ h1 {
 }
 .nithLogo {
   width: 100px;
+}
+.isteHeading {
+  position: initial;
 }
 .body-div {
   display: flex;
@@ -85,4 +100,7 @@ textarea {
 }
 footer {
   background-color: #0c043c;
+}
+.wrapper {
+  box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
 }

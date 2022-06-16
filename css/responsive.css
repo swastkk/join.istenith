@@ -1,7 +1,8 @@
 /* Responsiveness of the site */
 
-/* @media screen (max-width: 575) {
-  .navbar-brand {
-    white-space: nowrap;
+@media only screen and (max-width: 360px) {
+  .isteLogo,
+  .nithLogo {
+    width: 0;
   }
-} */
+}
