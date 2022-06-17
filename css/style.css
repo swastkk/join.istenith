@@ -33,7 +33,12 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
+nav .navbar-nav li a {
+  color: white !important;
+}
+.navbar-collapse {
+  float: right;
+}
 p {
   text-align: center;
 }
