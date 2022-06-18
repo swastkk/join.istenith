@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/swastkk/join.istenith#readme",
   "dependencies": {
-    "aos": "^3.0.0-beta.6"
+    "aos": "^3.0.0-beta.6",
+    "firebase": "^9.8.3"
   }
 }
