@@ -1,8 +1,17 @@
 /* Responsiveness of the site */
 
-@media only screen and (max-width: 360px) {
-  .isteLogo,
-  .nithLogo {
-    width: 0;
+@media screen and (max-width: 360px) {
+  .isteLogo {
+    width: 70px;
+    height: auto;
+  }
+  .isteHeading {
+    position: relative;
+    margin-left: 60px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  form {
+    width: 500px;
   }
 }
