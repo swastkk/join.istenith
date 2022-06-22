@@ -5,6 +5,11 @@
     Helvetica Neue, Ubuntu, sans-serif;
 }
 
+html,
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
 .title {
   text-align: center;
 }
