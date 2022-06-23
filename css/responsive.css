@@ -12,8 +12,12 @@
     position: relative;
     margin-left: 60px;
   }
-  .sameWidth {
-    width: 0%;
+
+  .login-box {
+    width: 286px;
+  }
+  .login-box .user-box input {
+    width: 214px;
   }
 }
 @media screen and (min-width: 1440px) {
