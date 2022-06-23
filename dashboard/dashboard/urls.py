@@ -17,10 +17,13 @@ from django.contrib import admin
 from django.urls import path
 from core import views
 
+admin.site.site_header = "ISTE INTERVIEW SItE 2022"
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('admin/', admin.site.urls),
     path('', views.Index.as_view(), name='index'),
     path('login', views.Login.as_view(), name='login'),
     path('password', views.Login.as_view(), name='password'),
+    path('index', views.Index.as_view(), name='index'),
 ]
